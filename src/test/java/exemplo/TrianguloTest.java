@@ -27,7 +27,7 @@ public class TrianguloTest {
 
     @DisplayName(value = " Exemplo ")
     @ParameterizedTest (name = "Lado A = {0}, Lado B = {1}, Lado C = {2} :: {3}")
-    @CsvSource({"1,2,2, INEXISTENTE",
+    @CsvSource({"1,2,-2, INEXISTENTE",
                "1,1,2, ESCALENO",
                "2,2,2, EQUILATERO "})
     public void validaTriangulo(int um, int dois, int tres, TipoTriangulo tipoTriangulo){
@@ -37,12 +37,12 @@ public class TrianguloTest {
     }
 
     @ParameterizedTest (name = "Lado A = {0}, Lado B = {1}, Lado C = {2} :: {3}")
-    @CsvSource({"1,2,2, INEXISTENTE",
-               "1,1,2, ESCALENO",
-               "2,2,2, EQUILATERO "})
+    @CsvSource({"1,2,-2, INEXISTENTE",
+                "1,3,2, ESCALENO",
+                "2,2,2, EQUILATERO "})
     public void validaTrianguloNew(int um, int dois, int tres, TipoTriangulo tipoTriangulo){
         triangulo = new Triangulo(um,dois,tres);
-        System.out.println(triangulo.validaTriangulo());
+        System.out.println(triangulo.identificaTipoTriangulo());
         assertTrue( triangulo.identificaTipoTriangulo().equals(tipoTriangulo));
     }
 
