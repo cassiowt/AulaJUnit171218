@@ -1,6 +1,7 @@
 package exemplo;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.EnumSource;
@@ -24,6 +25,7 @@ public class TrianguloTest {
         assertNotNull(tipoTriangulo);
     }
 
+    @DisplayName(value = " Exemplo ")
     @ParameterizedTest (name = "Lado A = {0}, Lado B = {1}, Lado C = {2} :: {3}")
     @CsvSource({"1,2,2, INEXISTENTE",
                "1,1,2, ESCALENO",
@@ -32,6 +34,16 @@ public class TrianguloTest {
         triangulo = new Triangulo(um,dois,tres);
         System.out.println(triangulo.validaTriangulo());
         assertTrue( triangulo.validaTriangulo().equals(tipoTriangulo));
+    }
+
+    @ParameterizedTest (name = "Lado A = {0}, Lado B = {1}, Lado C = {2} :: {3}")
+    @CsvSource({"1,2,2, INEXISTENTE",
+               "1,1,2, ESCALENO",
+               "2,2,2, EQUILATERO "})
+    public void validaTrianguloNew(int um, int dois, int tres, TipoTriangulo tipoTriangulo){
+        triangulo = new Triangulo(um,dois,tres);
+        System.out.println(triangulo.validaTriangulo());
+        assertTrue( triangulo.identificaTipoTriangulo().equals(tipoTriangulo));
     }
 
 

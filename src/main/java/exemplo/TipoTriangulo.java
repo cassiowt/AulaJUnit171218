@@ -1,8 +1,5 @@
 package exemplo;
 
 public enum TipoTriangulo {
-
-
-
-    EQUILATERO, ESOSCELES, ESCALENO, INEXISTENTE;
+    EQUILATERO, ISOSCELES, ESCALENO, INEXISTENTE;
 }

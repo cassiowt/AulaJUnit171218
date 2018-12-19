@@ -1,13 +1,21 @@
 package exemplo;
 
+import java.util.ArrayList;
+
 public class Triangulo {
 
     private int ladoA, ladoB, ladoC;
+    ArrayList lados = new ArrayList();
 
     public Triangulo(int ladoA, int ladoB, int ladoC) {
         this.ladoA = ladoA;
         this.ladoB = ladoB;
         this.ladoC = ladoC;
+
+        lados.add(ladoA);
+        lados.add(ladoB);
+        lados.add(ladoC);
+
     }
 
     public int getLadoA() {
@@ -31,7 +39,16 @@ public class Triangulo {
         } else  if((this.ladoA  == this.ladoB) || (this.ladoA  == this.ladoC)) {
             return TipoTriangulo.ESCALENO;
         }
-        return TipoTriangulo.ESOSCELES;
+        return TipoTriangulo.ISOSCELES;
     }
 
+    public TipoTriangulo identificaTipoTriangulo() {
+
+        TipoTriangulo tipo = null;
+        tipo = lados.stream().distinct().limit(3).count() <= 1 ? TipoTriangulo.EQUILATERO : tipo;
+        tipo = lados.stream().distinct().limit(3).count() == 3 ? TipoTriangulo.ESCALENO : tipo;
+        tipo = lados.stream().distinct().limit(3).count() == 2 ? TipoTriangulo.ISOSCELES : tipo;
+        return tipo;
+
+    }
 }
