@@ -1,40 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ded5bcff-c6a4-46e0-b1b4-0db49dbc2a84" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/file-changes/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileSnapshots.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/built.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__joda_time_joda_time_2_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_5_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/exemplo-um.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/exemplo-um_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/exemplo-um_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    <list default="true" id="ded5bcff-c6a4-46e0-b1b4-0db49dbc2a84" name="Default" comment="Adicionado nova validação de triangulo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -58,12 +26,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="exemplo-um" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -73,16 +36,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/exemplo/TrianguloTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/exemplo/IMCTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="41" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="41" />
+            <state relative-caret-position="495">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#598#599#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/exemplo/TrianguloTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#657#658#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/exemplo/TipoTriangulo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -100,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -109,16 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/exemplo/Triangulo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
-              <folding>
-                <element signature="e#112#113#0" expanded="true" />
-                <element signature="e#140#141#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="356">
+              <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -153,6 +120,11 @@
         <option value="$PROJECT_DIR$/src/test/java/exemplo/TrianguloTest.java" />
       </list>
     </option>
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="TrianguloTest.validaTriangulo" />
+    </enabled-run-configurations>
   </component>
   <component name="PhpServers">
     <servers />
@@ -209,50 +181,14 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="exemplo-um" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AulaJUnit171218" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="exemplo-um" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AulaJUnit171218" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exemplo-um" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AulaJUnit171218" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="exemplo-um" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AulaJUnit171218" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exemplo-um" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AulaJUnit171218" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exemplo" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="plug&#9;ACTION&#9;KotlinConfigureUpdates&#10;plugins&#9;ACTION&#9;WelcomeScreen.Plugins&#10;plu&#9;ACTION&#9;KotlinConfigureUpdates&#10;plugin&#9;ACTION&#9;WelcomeScreen.Plugins" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545213984152" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545235038044" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -300,7 +236,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrianguloTest.testTipoTriangulos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TrianguloTest.validaTrianguloNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exemplo-um_test" />
       <extension name="coverage">
         <pattern>
@@ -310,7 +246,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="exemplo" />
       <option name="MAIN_CLASS_NAME" value="exemplo.TrianguloTest" />
-      <option name="METHOD_NAME" value="testTipoTriangulos(exemplo.TipoTriangulo)" />
+      <option name="METHOD_NAME" value="validaTrianguloNew(int,int,int,exemplo.TipoTriangulo)" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -355,7 +291,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TrianguloTest.testTipoTriangulos" />
+        <item itemvalue="JUnit.TrianguloTest.validaTrianguloNew" />
       </list>
     </recent_temporary>
   </component>
@@ -369,44 +305,52 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545046838417</updated>
-      <workItem from="1545146997560" duration="2696000" />
+      <workItem from="1545146997560" duration="4554000" />
     </task>
+    <task id="LOCAL-00001" summary="Adicionado nova validação de triangulo">
+      <created>1545219911700</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545219911700</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IMCTest_testVerificaIMCValido - 2018.12.18 at 09h 01m 06s.xml">
-      <configuration name="IMCTest.testVerificaIMCValido" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IMCTest_testVerificaIMCValido - 2018.12.18 at 09h 02m 37s.xml">
-      <configuration name="IMCTest.testVerificaIMCValido" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IMCTest_testVerificaIMCValido - 2018.12.18 at 09h 02m 55s.xml">
-      <configuration name="IMCTest.testVerificaIMCValido" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IMCTest_testVerificaIMCValido - 2018.12.18 at 09h 05m 24s.xml">
-      <configuration name="IMCTest.testVerificaIMCValido" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IMCTest_testVerificaIMCInvalido - 2018.12.18 at 09h 06m 35s.xml">
-      <configuration name="IMCTest.testVerificaIMCInvalido" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IMCTest - 2018.12.18 at 09h 06m 41s.xml">
-      <configuration name="IMCTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IMCTest - 2018.12.18 at 09h 09m 14s.xml">
-      <configuration name="IMCTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IMCTest_testVerificaIMCInvalido - 2018.12.18 at 09h 14m 40s.xml">
-      <configuration name="IMCTest.testVerificaIMCInvalido" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IMCTest_testPessoaNull - 2018.12.18 at 09h 27m 32s.xml">
-      <configuration name="IMCTest.testPessoaNull" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TrianguloTest_testTipoTriangulos - 2018.12.18 at 13h 42m 38s.xml">
       <configuration name="TrianguloTest.testTipoTriangulos" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TrianguloTest_validaTriangulo - 2018.12.19 at 09h 27m 19s.xml">
+      <configuration name="TrianguloTest.validaTriangulo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrianguloTest - 2018.12.19 at 09h 27m 54s.xml">
+      <configuration name="TrianguloTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrianguloTest_validaTriangulo - 2018.12.19 at 09h 28m 11s.xml">
+      <configuration name="TrianguloTest.validaTriangulo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrianguloTest_validaTriangulo - 2018.12.19 at 09h 29m 02s.xml">
+      <configuration name="TrianguloTest.validaTriangulo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IMCTest - 2018.12.19 at 09h 29m 54s.xml">
+      <configuration name="IMCTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrianguloTest - 2018.12.19 at 09h 30m 36s.xml">
+      <configuration name="TrianguloTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrianguloTest_validaTriangulo - 2018.12.19 at 09h 30m 49s.xml">
+      <configuration name="TrianguloTest.validaTriangulo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrianguloTest_validaTrianguloNew - 2018.12.19 at 09h 43m 47s.xml">
+      <configuration name="TrianguloTest.validaTrianguloNew" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrianguloTest_validaTrianguloNew - 2018.12.19 at 09h 44m 22s.xml">
+      <configuration name="TrianguloTest.validaTrianguloNew" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2696000" />
+    <option name="totallyTimeSpent" value="4554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -419,18 +363,18 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Database Changes" weight="0.32959184" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26938775" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26938775" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32978722" />
       <window_info anchor="bottom" id="Build" order="11" />
       <window_info anchor="right" id="Database" />
@@ -448,6 +392,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adicionado nova validação de triangulo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionado nova validação de triangulo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew">
@@ -489,18 +437,6 @@
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Math.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/exemplo/IMCTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/exemplo/IMC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -515,45 +451,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exemplo/TipoTriangulo.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/exemplo/TipoTriangulo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/exemplo/Triangulo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-          <folding>
-            <element signature="e#112#113#0" expanded="true" />
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="356">
+          <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/exemplo/TrianguloTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="41" />
+        <state relative-caret-position="330">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/exemplo/IMCTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
           </folding>
         </state>
       </provider>
